@@ -9,21 +9,38 @@
     <link rel="stylesheet" href="./index.css">
 </head>
 <body>
+    <nav>
+        <p>MIRA SHOPPING</p>
+    </nav>
+
 <div class="container">
     <form id="itemForm">
+
         <label for="">
             Name of Item:
             <input type="text" id="nameInput" required>
         </label>
+
         <label for="">
             Quantity:
         <input type="number" id="quantityInput" value="1">
     </label>
+
     <label for="">
         Price:
         <input type="number" id="priceInput" value="0">
     </label>
+    
+    <button type="submit" id="addItemButton">
+        Add Item
+    </button>
     </form>
+</div>
+
+<div id="itemsDiv">
+<div class="item">
+    <input type="checkbox" name="" class="checkbox" checked>
+</div>
 </div>
 
 
