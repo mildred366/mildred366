@@ -15,3 +15,68 @@ nav {
     padding-left: 2rem;
     margin-bottom: 1rem;
 }
+
+.container {
+    padding: 1rem;
+}
+
+#itemForm label {
+    display: block;
+    margin-bottom: 1rem;
+}
+
+#itemForm input {
+    height: 2rem;
+    text-align: center;
+    border: 1px solid #bfbfbf;
+}
+
+#quantityInput, #priceInput {
+    width: 3rem;
+}
+
+#addItemButton {
+    border: unset;
+    background: #00805a;
+    color: #fff;
+    padding: 0.5rem;
+}
+
+#itemsDiv {
+    margin-top: 3rem;
+    margin-bottom: 2rem;
+    padding: 1rem;
+}
+
+.item {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    background: #eaeaea;
+    margin-bottom: 2rem;
+}
+
+.deleteButton {
+    background: #b10000;
+    border: unset;;
+    color: #fff;
+    height: 100%;
+    width: 2.5rem;
+    font-size: 0.8rem;
+    margin-left: auto;
+}
+.checkbox {
+    height: 100%;
+    width:2.5rem;    
+}
+
+.itemInfo {
+    text-align: center;
+}
+
+#totalPriceDiv {
+    font-weight: 500;
+}
+
+.deleteButton:active {
+    margin-top: 3px;
+}
