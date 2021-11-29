@@ -80,3 +80,12 @@ nav {
 .deleteButton:active {
     margin-top: 3px;
 }
+
+.purchased {
+    background: #00805a;
+    color: #fff;
+}
+
+.purchased p {
+    text-decoration: line-through;
+}
